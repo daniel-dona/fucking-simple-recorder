@@ -24,7 +24,7 @@ class MyWindow(Gtk.Window):
             
             self.button.set_label("Stop")
             
-            self.iconify()
+            self.iconify() # Hide this window!
            
             format = "%d-%m-%Y.%H-%M-%S"
             today = datetime.datetime.today()
